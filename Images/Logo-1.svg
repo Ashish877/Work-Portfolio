@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_1);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        font-size: 600px;
+        font-family: FZYTK--GBK1-0, FZYaoTi;
+        letter-spacing: 0.05em;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" class="cls-1">
+    <rect width="1080" height="1080"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" class="cls-2" transform="translate(22 24)">
+      <ellipse class="cls-4" cx="518" cy="516" rx="518" ry="516"/>
+      <ellipse class="cls-5" cx="518" cy="516" rx="517.5" ry="515.5"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" d="M418.5,0C649.631,0,837,187.369,837,418.5S649.631,837,418.5,837,0,649.631,0,418.5,187.369,0,418.5,0Z" transform="translate(122 122)"/>
+    <text id="AC" class="cls-3" transform="translate(540 729)"><tspan x="-347.813" y="0">AC</tspan></text>
+  </g>
+</svg>

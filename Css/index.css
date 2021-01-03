@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  font-family: "Merriweather", serif;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.container {
+  padding: 1em 0 0 1em;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  padding: 0;
+  border: 1px solid white;
+}
+
+.nav-left > img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-right: 1px solid white;
+}
+.nav-right {
+  padding-top: 1em;
+}
+.nav-right > span {
+  padding-right: 1em;
+}
+
+.content {
+  margin-top: 4em;
+}
+.main-head {
+  text-shadow: 2px 2px 2px #fff;
+  font-weight: 700;
+  font-size: 3em;
+}
+.sub-head {
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.cont-img {
+  margin: auto;
+  width: 100%;
+  transform: translate(50px);
+  transition: all 1s ease-out;
+}
+.anchor {
+  width: 97%;
+  padding: 1em;
+  text-align: center;
+  margin: 7em auto 5em auto;
+  border: 1px solid white;
+}
+a {
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px 3px grey;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.serv-head {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.serv-sub {
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+.serv-img {
+  margin: auto;
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+  transform: translate(50px);
+  transition: all 1s ease-out;
+}
+.post-para {
+  margin-top: 3em;
+  line-height: 2em;
+}
+
+.work-head {
+  font-weight: 700;
+  font-size: 2.5em;
+}
+.work-sub {
+  line-height: 2em;
+  margin-top: 1em;
+}
+.work-div {
+  margin: 3em 0;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 1s ease-out;
+}
+.work-img {
+  width: 45%;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #404040;
+}
+.last-para {
+  line-height: 2em;
+}
+.company-main {
+  margin: 2em 0;
+  width: 97%;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid white;
+}
+.company-main > a {
+  border: none;
+}
+.comp-head {
+  font-weight: 700;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 5px goldenrod;
+}
+
+.comp-sub {
+  line-height: 2em;
+  margin: 1em 0;
+}
+.comp-img-1 {
+  width: 97%;
+  margin-bottom: 2em;
+  box-shadow: 10px 10px 5px #404040;
+}
+.comp-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+
+  justify-content: space-between;
+  background-color: #404040;
+  font-size: 1.1em;
+  padding: 1em;
+}
+/* ************ Animations ************ */
+
+.cont-img:hover {
+  transform: translate(-17px, -20px) scale(0.9);
+  box-shadow: 10px 10px 5px #404040;
+}
+.serv-img:hover {
+  transform: translate(-17px, -20px) scale(0.9);
+  box-shadow: 10px 10px 5px #404040;
+}
+.work-div:hover {
+  transform: translate(-15px);
+}
+
+/* *****************Media Queries************ */
+@media screen and (min-width: 680px) {
+  body {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+  }
+}
